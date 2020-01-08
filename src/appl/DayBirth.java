@@ -20,7 +20,7 @@ public class DayBirth {
 		amount = myBirthDate.until(currDate, ChronoUnit.MONTHS);
 		System.out.println("I have " + amount +"-"+"monts old");
 		amount = myBirthDate.until(currDate, ChronoUnit.YEARS);
-		System.out.println("I have " + amount + "-"+ "years old");
+		System.out.println("I have " + amount + "-"+"years old");
 		DayOfWeek dof = myBirthDate.getDayOfWeek();
 		Locale locale = new Locale("en");
 		System.out.println("I was born on " + dof.getDisplayName(TextStyle.FULL, locale));
