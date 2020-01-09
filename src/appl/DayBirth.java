@@ -12,7 +12,7 @@ public class DayBirth {
 	public static void main(String[] args) {
 		LocalDate currDate = LocalDate.now();
 		// check current data
-		LocalDate myBirthDate = LocalDate.of(1981, 04, 30);
+		LocalDate myBirthDate = LocalDate.of(1984, 8, 01);
 		// get user data birth
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy");
 		String txt = myBirthDate.format(formatter);
